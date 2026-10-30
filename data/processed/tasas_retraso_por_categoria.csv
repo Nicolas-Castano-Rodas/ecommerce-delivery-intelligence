@@ -1,0 +1,14 @@
+﻿cantidad,proporcion_retraso,porcentaje_retraso,variable,categoria
+1833,0.5864702673213311,58.65,Warehouse_block,A
+1833,0.602291325695581,60.23,Warehouse_block,B
+1833,0.59683578832515,59.68,Warehouse_block,C
+1834,0.5976008724100327,59.76,Warehouse_block,D
+3666,0.5984724495362793,59.85,Warehouse_block,F
+1777,0.6015756893640968,60.16,Mode_of_Shipment,Flight
+1760,0.5880681818181818,58.81,Mode_of_Shipment,Road
+7462,0.5975609756097561,59.76,Mode_of_Shipment,Ship
+948,0.6497890295358649,64.98,Product_importance,high
+5297,0.5927883707759108,59.28,Product_importance,low
+4754,0.5904501472444258,59.05,Product_importance,medium
+5545,0.594409377817854,59.44,Gender,F
+5454,0.599009900990099,59.9,Gender,M

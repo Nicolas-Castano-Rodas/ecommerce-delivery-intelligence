@@ -1,0 +1,14 @@
+{
+    "model": "RandomForestClassifier",
+    "dataset_rows": 10999,
+    "training_rows": 8799,
+    "test_rows": 2200,
+    "random_state": 42,
+    "baseline_accuracy": 0.5968181818181818,
+    "baseline_f1": 0.7475092513521207,
+    "accuracy": 0.6690909090909091,
+    "precision": 0.8884462151394422,
+    "recall": 0.5095201827875095,
+    "f1_score": 0.6476282671829623,
+    "roc_auc": 0.7352680806195266
+}

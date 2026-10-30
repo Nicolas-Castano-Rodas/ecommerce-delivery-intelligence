@@ -1,0 +1,12 @@
+{
+    "estado": "candidato_seleccionado",
+    "criterio": "Mayor recall entre los umbrales con precision igual o superior al mínimo",
+    "precision_minima": 0.7,
+    "umbral": 0.5,
+    "precision_validacion": 0.7118226600985221,
+    "recall_validacion": 0.6608231707317073,
+    "f1_validacion": 0.6853754940711463,
+    "falsos_positivos_validacion": 351,
+    "falsos_negativos_validacion": 445,
+    "nota": "Este umbral se seleccionó con validación. No se ha realizado una nueva evaluación sobre el conjunto de prueba."
+}

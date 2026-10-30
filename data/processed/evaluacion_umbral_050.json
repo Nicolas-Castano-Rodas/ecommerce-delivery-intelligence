@@ -1,0 +1,29 @@
+{
+    "modelo": "ExtraTreesClassifier",
+    "umbral_evaluado": 0.5,
+    "random_state_division": 2026,
+    "distribucion": {
+        "entrenamiento": 6599,
+        "validacion": 2200,
+        "prueba": 2200
+    },
+    "metricas_validacion": {
+        "precision": 0.7118226600985221,
+        "recall": 0.6608231707317073,
+        "f1": 0.6853754940711463
+    },
+    "metricas_prueba": {
+        "accuracy": 0.6736363636363636,
+        "precision": 0.7374301675977654,
+        "recall": 0.7037319116527038,
+        "f1": 0.7201870615744349,
+        "roc_auc": 0.7586857983344081
+    },
+    "matriz_confusion": {
+        "verdaderos_negativos": 558,
+        "falsos_positivos": 329,
+        "falsos_negativos": 389,
+        "verdaderos_positivos": 924
+    },
+    "advertencia": "El conjunto de datos ya se había explorado en experimentos anteriores. Esta evaluación no debe considerarse completamente independiente de todas las decisiones previas del proyecto."
+}

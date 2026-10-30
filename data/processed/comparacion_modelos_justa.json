@@ -1,0 +1,102 @@
+{
+    "experimento": "Comparación controlada de clasificadores",
+    "dataset": "data\\raw\\Train.csv",
+    "registros_totales": 10999,
+    "variables_predictivas": 10,
+    "random_state_division": 2026,
+    "distribucion": {
+        "entrenamiento": 6599,
+        "validacion": 2200,
+        "prueba": 2200
+    },
+    "umbral_comun": 0.5,
+    "configuracion": {
+        "preprocesamiento": "Imputación de medianas y modas, OneHotEncoder y exclusión de ID.",
+        "random_forest": {
+            "n_estimators": 300,
+            "min_samples_leaf": 2,
+            "class_weight": "balanced",
+            "random_state": 42
+        },
+        "extra_trees": {
+            "n_estimators": 300,
+            "min_samples_leaf": 2,
+            "max_features": "sqrt",
+            "class_weight": null,
+            "random_state": 42
+        }
+    },
+    "matrices_confusion": {
+        "RandomForestClassifier": {
+            "filas": [
+                "Real: a tiempo",
+                "Real: retrasado"
+            ],
+            "columnas": [
+                "Predicción: a tiempo",
+                "Predicción: retrasado"
+            ],
+            "valores": [
+                [
+                    787,
+                    100
+                ],
+                [
+                    571,
+                    742
+                ]
+            ]
+        },
+        "ExtraTreesClassifier": {
+            "filas": [
+                "Real: a tiempo",
+                "Real: retrasado"
+            ],
+            "columnas": [
+                "Predicción: a tiempo",
+                "Predicción: retrasado"
+            ],
+            "valores": [
+                [
+                    558,
+                    329
+                ],
+                [
+                    389,
+                    924
+                ]
+            ]
+        }
+    },
+    "resultados": [
+        {
+            "modelo": "RandomForestClassifier",
+            "umbral": 0.5,
+            "accuracy": 0.695,
+            "precision": 0.8812351543942993,
+            "recall": 0.5651180502665651,
+            "f1_score": 0.688631090487239,
+            "roc_auc": 0.7568045157650792,
+            "verdaderos_negativos": 787,
+            "falsos_positivos": 100,
+            "falsos_negativos": 571,
+            "verdaderos_positivos": 742,
+            "alertas_retraso": 842
+        },
+        {
+            "modelo": "ExtraTreesClassifier",
+            "umbral": 0.5,
+            "accuracy": 0.6736363636363636,
+            "precision": 0.7374301675977654,
+            "recall": 0.7037319116527038,
+            "f1_score": 0.7201870615744349,
+            "roc_auc": 0.7586857983344081,
+            "verdaderos_negativos": 558,
+            "falsos_positivos": 329,
+            "falsos_negativos": 389,
+            "verdaderos_positivos": 924,
+            "alertas_retraso": 1253
+        }
+    ],
+    "advertencia": "El dataset ya se utilizó en experimentos anteriores. Esta comparación usa la misma partición de prueba para ambos modelos, pero no constituye una validación completamente independiente de todas las decisiones previas del proyecto. El preprocesamiento compartido también implica que los resultados pueden diferir de los modelos originales guardados."
+}

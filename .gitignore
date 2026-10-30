@@ -151,6 +151,8 @@ activemq-data/
 
 # Environments
 .env
+.env.*
+!.env.example
 .envrc
 .venv
 env/
@@ -204,6 +206,10 @@ cython_debug/
 # .vscode/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
+
+# Project data and model artifacts
+ml/artifacts/
+data/raw/
 
 # Ruff stuff:
 .ruff_cache/

@@ -1,0 +1,34 @@
+[
+  {
+    "modelo":"Dummy",
+    "accuracy_media":0.5966587421,
+    "precision_media":0.5966587421,
+    "recall_media":1.0,
+    "f1_media":0.7473841706,
+    "roc_auc_media":0.5
+  },
+  {
+    "modelo":"ExtraTrees",
+    "accuracy_media":0.6655294847,
+    "precision_media":0.8227097379,
+    "recall_media":0.5605714286,
+    "f1_media":0.6666310329,
+    "roc_auc_media":0.7298205485
+  },
+  {
+    "modelo":"RandomForest",
+    "accuracy_media":0.6720078557,
+    "precision_media":0.8716979177,
+    "recall_media":0.5283809524,
+    "f1_media":0.6577580066,
+    "roc_auc_media":0.7318836494
+  },
+  {
+    "modelo":"LogisticRegression",
+    "accuracy_media":0.648937219,
+    "precision_media":0.8286631837,
+    "recall_media":0.519047619,
+    "f1_media":0.6381851321,
+    "roc_auc_media":0.72008199
+  }
+]

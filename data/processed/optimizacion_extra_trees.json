@@ -1,0 +1,22 @@
+{
+    "modelo": "ExtraTreesClassifier",
+    "criterio_seleccion": "F1 medio en validación cruzada",
+    "particiones_cv": 5,
+    "random_state": 42,
+    "mejor_configuracion": {
+        "n_estimators": 300,
+        "max_depth": null,
+        "min_samples_leaf": 2,
+        "max_features": "sqrt",
+        "class_weight": null
+    },
+    "mejores_metricas_cv": {
+        "accuracy": 0.6510978603545403,
+        "precision": 0.7292602417059791,
+        "recall": 0.6611428571428573,
+        "f1": 0.6933992150393316,
+        "roc_auc": 0.7297577896149818,
+        "f1_desviacion": 0.005197444348794984
+    },
+    "nota": "El conjunto de prueba reservado no se utilizó para seleccionar la configuración."
+}

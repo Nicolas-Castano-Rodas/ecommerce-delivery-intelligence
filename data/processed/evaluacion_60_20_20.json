@@ -1,0 +1,33 @@
+{
+    "modelo": "ExtraTreesClassifier",
+    "random_state_division": 2026,
+    "distribucion": {
+        "entrenamiento": 6599,
+        "validacion": 2200,
+        "prueba": 2200
+    },
+    "umbral_seleccionado": 0.3,
+    "metricas_validacion": {
+        "umbral": 0.3,
+        "precision": 0.5987799155326138,
+        "recall": 0.9725609756097561,
+        "f1": 0.7412140575079872,
+        "falsos_positivos": 855,
+        "falsos_negativos": 36
+    },
+    "metricas_prueba": {
+        "accuracy": 0.6040909090909091,
+        "precision": 0.6045411542100284,
+        "recall": 0.9733434881949733,
+        "f1": 0.7458418441785819,
+        "roc_auc": 0.7586857983344081
+    },
+    "matriz_confusion": {
+        "verdaderos_negativos": 51,
+        "falsos_positivos": 836,
+        "falsos_negativos": 35,
+        "verdaderos_positivos": 1278
+    },
+    "modelo_guardado": "ml\\artifacts\\extra_trees_validated_candidate.joblib",
+    "advertencia": "La división utiliza un nuevo random_state, pero el dataset ya fue explorado en experimentos anteriores. Por ello, esta prueba no debe considerarse completamente independiente de todas las decisiones previas del proyecto."
+}

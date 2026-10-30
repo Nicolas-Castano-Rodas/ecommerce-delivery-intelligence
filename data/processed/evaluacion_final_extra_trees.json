@@ -1,0 +1,19 @@
+{
+    "modelo": "ExtraTreesClassifier",
+    "conjunto": "test reservado",
+    "registros_prueba": 2200,
+    "metricas": {
+        "accuracy": 0.6463636363636364,
+        "precision": 0.7288280581693756,
+        "recall": 0.6488956587966489,
+        "f1": 0.6865431103948428,
+        "roc_auc": 0.730074160828623
+    },
+    "matriz_confusion": {
+        "verdaderos_negativos": 570,
+        "falsos_positivos": 317,
+        "falsos_negativos": 461,
+        "verdaderos_positivos": 852
+    },
+    "advertencia": "Resultados calculados sobre una partición reservada. No se deben ajustar los parámetros repetidamente usando estos resultados."
+}
